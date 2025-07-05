@@ -30,7 +30,7 @@ jobs:
 
       - name: Pull DVC-tracked data
         run: |
-          dvc pull  # 🔥 this is the key step
+          dvc pull --force 
 
       - name: Run pipeline
         env:

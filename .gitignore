@@ -195,3 +195,9 @@ cython_debug/
 cred.txt
 local_s3/
 .env/
+data/raw/
+data/interim/
+data/processed/
+models/
+reports/
+notebooks/data.csv

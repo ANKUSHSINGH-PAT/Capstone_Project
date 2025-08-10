@@ -107,3 +107,20 @@ Prometheus scrapes AKS service metrics.
 Grafana visualizes performance dashboards.
 
 Expose your metrics with /metrics endpoint in your inference service.
+
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/33fc7cf1-5466-45c8-aa62-dcafd5f8938c" />
+
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/57b8dfd4-52e0-43f9-88e0-b9dfd794ecbf" />
+
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/2597f704-6db5-43ad-bde3-359307bef019" />
+
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/0366f59f-f678-496d-b09a-b440fb45b3eb" />
+
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/16a43391-a3b8-4e5a-8b25-7ffcd372e15d" />
+
+
+
+
+
+
+

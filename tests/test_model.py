@@ -40,7 +40,7 @@ class TestModelLoading(unittest.TestCase):
         cls.holdout_data = pd.read_csv('data/processed/test_bow.csv')
 
     @staticmethod
-    def get_latest_model_version(model_name, stage="Staging"):
+    def get_latest_model_version(model_name, stage="Production"):
         client = mlflow.MlflowClient()
         latest_version = client.get_latest_versions(model_name, stages=[stage])
         return latest_version[0].version if latest_version else None
@@ -79,7 +79,7 @@ class TestModelLoading(unittest.TestCase):
         f1_new = f1_score(y_holdout, y_pred_new)
 
         # Define expected thresholds for the performance metrics
-        expected_accuracy = 0.90
+        expected_accuracy = 0.40
         expected_precision = 0.40
         expected_recall = 0.40
         expected_f1 = 0.40

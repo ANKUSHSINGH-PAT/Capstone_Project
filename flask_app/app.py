@@ -67,8 +67,8 @@ def normalize_text(text):
 
     return text
 
-# Below code block is for local use
-# -------------------------------------------------------------------------------------
+#Below code block is for local use
+#-------------------------------------------------------------------------------------
 # mlflow.set_tracking_uri('https://dagshub.com/ANKUSHSINGH-PAT/Capstone_Project.mlflow')
 # dagshub.init(repo_owner='ANKUSHSINGH-PAT', repo_name='Capstone_Project', mlflow=True)
 # -------------------------------------------------------------------------------------
@@ -86,7 +86,7 @@ os.environ["MLFLOW_TRACKING_PASSWORD"] = dagshub_token
 dagshub_url = "https://dagshub.com"
 repo_owner = "ANKUSHSINGH-PAT"
 repo_name = "Capstone_Project"
-# Set up MLflow tracking URI
+# # Set up MLflow tracking URI
 mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
 # -------------------------------------------------------------------------------------
 

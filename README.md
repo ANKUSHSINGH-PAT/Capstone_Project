@@ -1,4 +1,4 @@
-Welcome to our Capstone Project – an end-to-end text classification solution for large-scale textual data. This project integrates ML engineering best practices including containerization, monitoring, versioning, and continuous delivery.
+Welcome to our Capstone Project – an end-to-end text classification solution for large-scale textual data. This project integrates ML engineering best practices including containerization, monitoring, versioning, and continuous delivery..
 
 🚀 Key Features
 Feature	Tech Stack/Tools Used

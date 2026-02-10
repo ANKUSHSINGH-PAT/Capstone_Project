@@ -163,7 +163,7 @@ ssh -i your-key.pem ubuntu@your-ec2-public-ip
 53. Download Prometheus:
 wget https://github.com/prometheus/prometheus/releases/download/v2.46.0/prometheus-2.46.0.linux-amd64.tar.gz
 tar -xvzf prometheus-2.46.0.linux-amd64.tar.gz
-mv prometheus-2.46.0.linux-amd64 prometheus
+mv prometheus-2.46.0.linux-amd64 prometheus.
 
 54. Move files to standard paths:
 sudo mv prometheus /etc/prometheus
